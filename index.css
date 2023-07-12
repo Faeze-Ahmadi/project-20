@@ -127,6 +127,7 @@ body {
     font-size: 15.04px;
     color: var(--dark-gray);
     text-align: center;
+    margin-left: -270px;
 }
 
 .app-btns {
@@ -170,32 +171,67 @@ body {
     font-size: 12px;
 }
 
-
 .text-with-lines {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 5px;
+    margin-left: -270px;
 }
 
 
-.continue-text::before {
-    content: "";
-    display: inline-block;
-    width: 130px;
-    height: 1px;
-    background-color: var(--dark-gray);
-    margin-right: 10px;
-  }
-  
-  .continue-text::after {
-    content: "";
-    display: inline-block;
-    width: 130px;
-    height: 1px;
-    background-color: var(--dark-gray);
-    margin-right: 10px;
-  }
- 
+.box-regestering {
+    text-align: center;
+    margin-top: 5px;
+    margin-left: -235px;
+}
+
+.full-name-btn {
+    width: 400px;
+    height: 70px;
+    background-color: var(--white);
+    border-color: var(--dark-gray);
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 20px 100px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.full-name-text {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: -270px;
+}
+
+.confirm-text {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: -228px;
+}
+
+.create-accoount-btn {
+    width: 400px;
+    height: 57.75px;
+    background-color: var(--green);
+    border-radius: 10px;
+    border: none;
+    padding: 20px 100px;
+    margin-top: 15px;
+    margin-left: -30px;
+}
+
+.create-account-test {
+    font-size: 14.85px;
+    margin-top: -1px;
+}
+
+.last-sentense {
+    font-size: 14px;
+    color: var(--dark-gray);
+    margin-top: 60px;
+    margin-left: -33px;
+}
 
 
-  }
+
+
 
