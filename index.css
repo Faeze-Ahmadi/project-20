@@ -113,3 +113,89 @@ body {
     color: var(--white);
 }
 
+.body-right-content {
+    margin-top: -780px;
+    margin-left: 620px;
+}
+
+.start-text {
+    font-size: 24px;
+}
+
+.get-start-text {
+    margin-top: 10px;
+    font-size: 15.04px;
+    color: var(--dark-gray);
+    text-align: center;
+}
+
+.app-btns {
+    display: flex;
+    text-align: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.google-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 12px;
+    background-color: var(--white);
+    border-color: var(--green);
+    width: 126px;
+    height: 44px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.google-text {
+    font-size: 12px;
+}
+
+.facebook-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 12px;
+    background-color: var(--white);
+    border-color: var(--dark-gray);
+    width: 126px;
+    height: 44px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.facebook-text {
+    font-size: 12px;
+}
+
+
+.text-with-lines {
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.continue-text::before {
+    content: "";
+    display: inline-block;
+    width: 130px;
+    height: 1px;
+    background-color: var(--dark-gray);
+    margin-right: 10px;
+  }
+  
+  .continue-text::after {
+    content: "";
+    display: inline-block;
+    width: 130px;
+    height: 1px;
+    background-color: var(--dark-gray);
+    margin-right: 10px;
+  }
+ 
+
+
+  }
+
