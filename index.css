@@ -12,12 +12,45 @@ body {
 
 .main {
     display: flex;
-}
-
-.image-box {
     background-image: url(./img/picture-of-project-20.jpg);
     background-repeat: no-repeat;
     margin: -8px;
-    width: 619px;
+    width: 1440px;
     height: 900px;   
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 870px;
+    margin-top: 20px;
+}
+
+.logo-icon {
+    display: flex;
+    align-items: center;
+    gap: 11.27px;
+    margin-left: 40px;
+}
+
+.logo-text {
+    font-size: 16.93px;
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-question {
+    font-size: 14px;
+}
+
+.nav-sign {
+    font-size: 14px;
+    color: var(--green);
+}
+
+
