@@ -1,0 +1,23 @@
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --light-gray: #D9D9D9;
+    --dark-gray: #7E7E7E;
+    --green: #20DC49;
+}
+
+body {
+    background-color: var(--light-gray);
+}
+
+.main {
+    display: flex;
+}
+
+.image-box {
+    background-image: url(./img/picture-of-project-20.jpg);
+    background-repeat: no-repeat;
+    margin: -8px;
+    width: 619px;
+    height: 900px;   
+}
